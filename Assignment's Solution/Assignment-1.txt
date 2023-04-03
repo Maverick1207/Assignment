@@ -1,0 +1,162 @@
+
+
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+* 
+'hello'
+-87.8
+- 
+/ 
++	
+
+ANS : 1
+
+'*' This is an expression representing the multiplication operator.
+
+'hello' This is a value of type string.
+
+'-87.8' This is a value of type floating-point number.
+
+'-' This is an expression representing the subtraction operator.
+
+'/' This is an expression representing the division operator.
+
+'+' This is an expression representing the addition operator.
+'6' This is a value of type integer.
+
+
+
+
+2. What is the difference between string and variable?
+ANS : 2
+A string is a specific type of data that holds textual information, while a variable is a container that can hold any type of data, including strings.
+
+e.g. - a = "hello"
+Here, the variable "a" holds the value "hello", which is a string.
+
+
+
+3. Describe three different data types.
+ANS : 3
+
+Here are three different data types:
+
+1-Integer: An integer is a whole number without any fractional part. It can be positive, negative, or zero. Examples of integers include -10, 0, and 42. In programming languages like Python, integers are typically represented using the "int" data type.
+
+2-String: A string is a sequence of characters, such as letters, digits, symbols, and spaces. Strings are typically enclosed in quotation marks, such as "hello" or 'world'. In programming languages like Python, strings are typically represented using the "str" data type.
+
+3-Boolean: A Boolean is a data type that can have one of two possible values, usually denoted as "True" or "False". It is often used in conditional statements, such as "if" and "while" statements, to determine whether a certain condition is true or false. In programming languages like Python, Booleans are typically represented using the "bool" data type.
+
+
+
+4. What is an expression made up of? What do all expressions do?
+ANS : 4
+An expression is made up of one or more values, variables, operators, and function calls, that are combined together to form a meaningful computation or result. Expressions can be simple or complex, and they can include arithmetic operations, comparison operations, logical operations, and more.
+
+e.g. ->>>> result = 3 + 4 * 5
+This expression includes the values 3, 4, and 5, the operators + and *, and the variable "result". When evaluated, the expression computes the value of 3 + 4 * 5, which is 23, and assigns that value to the variable "result". The result of the expression can then be used later in the program for further computations or output.
+
+
+
+
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+ANS : 5
+In programming, an expression is a combination of values, operators, and/or function calls that evaluates to a value, whereas a statement is a complete line of code that performs a specific action.
+
+An assignment statement, such as "spam = 10", is an example of a statement. It assigns the value 10 to a variable named "spam". The statement does not evaluate to a value; rather, it changes the state of the program by creating a new variable and assigning it a value.
+
+e.g->>>> print("The value of spam is:", spam)
+In this case, the expression "spam" is used as an argument to the print() function, and it produces the value of the variable named "spam" as output.
+
+
+
+
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+ANS : 6
+
+The variable bacon still contains the value 22, because the code only evaluates the expression bacon + 1, which adds 1 to the value of bacon, but does not change the value of bacon itself.
+
+
+
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+
+ANS : 7
+In the first expression, the "+" operator concatenates the two strings 'spam' and 'spamspam', resulting in the string 'spamspamspam'.
+
+In the second expression, the "*" operator repeats the string 'spam' three times, resulting in the string 'spamspamspam'.
+
+
+8. Why is eggs a valid variable name while 100 is invalid?
+ANS : 8 
+In programming, variable names must follow certain rules and conventions in order to be valid. In general, variable names must start with a letter (either uppercase or lowercase) or an underscore (_) character, and they can be followed by any combination of letters, underscores, or digits (0-9).
+
+Based on these rules, "eggs" is a valid variable name because it starts with a letter and only contains letters, while "100" is an invalid variable name because it starts with a digit and contains no letters.
+
+
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+ANS : 9
+
+In Python, you can use the following three functions to get the integer, floating-point number, or string version of a value:
+
+int(): This function can be used to convert a value to an integer. For example, int(3.5) would return the integer 3.
+
+float(): This function can be used to convert a value to a floating-point number. For example, float(5) would return the floating-point number 5.0.
+
+str(): This function can be used to convert a value to a string. For example, str(42) would return the string '42'.
+
+These functions can be very useful when working with different types of data in Python, and they can help you convert values between different types as needed.
+
+
+
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+
+ANS : 10
+The expression 'I have eaten ' + 99 + ' burritos.' causes an error because it is trying to concatenate a string with an integer. In Python, the + operator is used for both string concatenation and addition, but it behaves differently depending on the types of the operands.
+
+To fix the error, you can convert the integer value to a string using the str() function, like this:
+
+e.g. ->>>>	'I have eaten ' + str(99) + ' burritos.'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
